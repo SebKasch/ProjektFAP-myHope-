@@ -20,13 +20,13 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8E8630C2-2855-43F4-95AD-0DE89E01731F}</ProjectGuid>
-    <RootNamespace>ProjektFAPmyHope</RootNamespace>
+    <ProjectGuid>{16E9FA5A-5C84-49B2-A083-5269705C03A4}</ProjectGuid>
+    <RootNamespace>GraphLib</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
@@ -76,7 +76,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)GraphLib/GraphLib</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -116,32 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AI.cpp" />
-    <ClCompile Include="Controller.cpp" />
-    <ClCompile Include="Insel.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="transport.cpp" />
-    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="GraphLib\Edge.cpp" />
+    <ClCompile Include="GraphLib\Graph.cpp" />
+    <ClCompile Include="GraphLib\Node.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AI.h" />
-    <ClInclude Include="Controller.h" />
-    <ClInclude Include="Insel.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="transport.h" />
-    <ClInclude Include="UI.h" />
+    <ClInclude Include="GraphLib\Edge.h" />
+    <ClInclude Include="GraphLib\Graph.h" />
+    <ClInclude Include="GraphLib\Node.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GraphLib\GraphLib.vcxproj">
-      <Project>{16e9fa5a-5c84-49b2-a083-5269705c03a4}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Image.jpg" />
+    <None Include="GraphLib\GraphLib.vcxproj" />
+    <None Include="GraphLib\GraphLib.vcxproj.filters" />
+    <None Include="GraphLib\GraphLib.vcxproj.user" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

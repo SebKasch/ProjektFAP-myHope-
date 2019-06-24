@@ -1,0 +1,23 @@
+Insel Kimoran_Berg
+Insel Askhora
+Insel Beramorin
+Insel Ostergaard
+Insel Uthenwold
+Tunnel Kimoran_Berg Askhora
+Tunnel Beramorin Ostergaard
+Bruecke Kimoran_Berg Askhora
+Bruecke Askhora Ostergaard
+Faehre Askhora Uthenwold
+Faehre Uthenwold Kimoran_Berg
+Tunnel Beramorin Askhora
+Bruecke Ostergaard Beramorin
+Bruecke Beramorin Kimoran_Berg
+Schatz Beramorin
+Lager Ostergaard 15 Taler
+Lager Uthenwold 3 Taler
+Mensch Kimoran_Berg 30 Taler
+Computer Kimoran_Berg 30 Taler
+Mensch1 Kimoran_Berg 30 Taler
+Insel MeineInsel
+Tunnel MeineInsel Ostergaard
+Lager MeineInsel 10 Taler

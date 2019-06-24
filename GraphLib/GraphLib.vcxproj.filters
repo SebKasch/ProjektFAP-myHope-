@@ -15,54 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AI.cpp">
+    <ClCompile Include="GraphLib\Edge.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Insel.cpp">
+    <ClCompile Include="GraphLib\Graph.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="transport.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="UI.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="Controller.cpp">
+    <ClCompile Include="GraphLib\Node.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AI.h">
+    <ClInclude Include="GraphLib\Edge.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="Controller.h">
+    <ClInclude Include="GraphLib\Graph.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="Insel.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="transport.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="UI.h">
+    <ClInclude Include="GraphLib\Node.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Image.jpg">
-      <Filter>Ressourcendateien</Filter>
-    </Image>
+    <None Include="GraphLib\GraphLib.vcxproj" />
+    <None Include="GraphLib\GraphLib.vcxproj.filters" />
+    <None Include="GraphLib\GraphLib.vcxproj.user" />
   </ItemGroup>
 </Project>
