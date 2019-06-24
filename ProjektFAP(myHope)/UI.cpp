@@ -76,7 +76,7 @@ void UI::printList(std::deque<Transport*> printedList)
 
 void UI::errRequest(std::string meldung)
 {
-	std::cout << "[Fehler] " << meldung << std::endl;
+	std::cerr << "[Fehler] " << meldung << std::endl;
 }
 
 std::string UI::getInformation()

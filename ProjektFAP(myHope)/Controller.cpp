@@ -448,6 +448,7 @@ Controller::Controller()
 	m_winner = NULL;
 	m_doing = true;
 	
+	m_interface.errRequest("Hier ist ein Fehler aufgetreten");
 	/*
 	pushInsel("Insel A", 5, false);
 	pushInsel("Insel B", 3, true);

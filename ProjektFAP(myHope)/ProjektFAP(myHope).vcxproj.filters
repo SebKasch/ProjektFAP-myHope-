@@ -60,9 +60,4 @@
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="Image.jpg">
-      <Filter>Ressourcendateien</Filter>
-    </Image>
-  </ItemGroup>
 </Project>
